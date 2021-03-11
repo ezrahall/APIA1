@@ -1,0 +1,50 @@
+.Post{
+    position: relative;
+    width: 80%;
+    border: 1px solid black;
+    padding: 40px 20px;
+    border-radius: 20px;
+    margin: 10px 0;
+}
+.Arrow{
+    display: flex;
+    position: absolute;
+    right: 20px;
+    top: 30px;
+    height: 30px;
+    border-radius: 5px;
+    transition: 0.25s;
+}
+.Arrow:hover{
+    background-color: rgba(0,0,0,0.42);
+    transition: 0.25s;
+}
+.Inner{
+    text-align: left;
+}
+.Inner p {
+    max-width: 800px;
+}
+.Post pre{
+    text-align: left;
+    background-color: rgba(100,100,100,.36);
+    max-width: 900px;
+    max-height: 800px;
+    overflow: auto;
+    border-radius: 5px;
+}
+.Post code{
+    padding: 10px;
+    max-width: 700px;
+    height: 800px;
+    width: 500px;
+}
+.Post code img{
+    display: none;
+}
+.Line{
+    height: 1px;
+    background-color: black;
+    width: 80%;
+    margin: 20px 10%;
+}
